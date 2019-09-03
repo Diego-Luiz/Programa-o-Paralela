@@ -1,0 +1,8 @@
+instalar:
+!pip install git+git://github.com/andreinechaev/nvcc4jupyter.git
+
+instalar o plugin:
+%load_ext nvcc_plugin
+
+colocar %%cu no começo do código CUDA
+
